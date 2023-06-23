@@ -1,14 +1,12 @@
 package application;
 
-import java.sql.Connection;
-import java.sql.Statement;
+import application.entities.Department;
 
 public class App {
 
 	public static void main(String[] args) {
-
-		Connection conn = null;
-		Statement st = null;
-
+		
+		Department obj = new Department(1, "Books");
+		System.out.println(obj);
 	}
 }
